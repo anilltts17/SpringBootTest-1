@@ -11,12 +11,12 @@ public class TestController {
 	@GetMapping("/")
 	public String test() {
 
-		return "ffrom Spring Bott application : " + LocalDateTime.now();
+		return "from Spring Boot application : " + LocalDateTime.now();
 	}
 	
 	@GetMapping("/test")
 	public String test1() {
 
-		return "ffrom Spring Bott application : " + LocalDateTime.now();
+		return "from Spring Boot application : " + LocalDateTime.now();
 	}
 }
